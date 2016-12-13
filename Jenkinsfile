@@ -6,7 +6,7 @@ node {
 
     stage 'Build'
 
-    withMaven() {
+    withMaven(maven: 'Maven') {
         sh "mvn clean deploy"
     }
 }
