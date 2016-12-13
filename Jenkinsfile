@@ -1,11 +1,6 @@
-node{
-    stage 'Checkout'
-
-    git url: 'https://github.com/qwazr/qwazr-parent.git'
-
-    stage 'Build'
-
+node {
+    git url: 'https://github.com/qwazr/parent.git'
     withMaven() {
-        sh "mvn clean install"
+        sh "mvn clean deploy"
     }
 }
