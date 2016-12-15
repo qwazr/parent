@@ -156,6 +156,11 @@
                 <version>4.1.0</version>
             </dependency>
             <dependency>
+                <groupId>org.apache.xmlgraphics</groupId>
+                <artifactId>xmlgraphics-commons</artifactId>
+                <version>2.1</version>
+            </dependency>
+            <dependency>
                 <groupId>org.xerial.snappy</groupId>
                 <artifactId>snappy-java</artifactId>
                 <version>1.1.2.6</version>
