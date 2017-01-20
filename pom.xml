@@ -78,6 +78,14 @@
                 <enabled>true</enabled>
             </snapshots>
         </repository>
+        <repository>
+            <id>afs-snapshots</id>
+            <name>afs-snapshots</name>
+            <url>https://repository.apache.org/snapshots/</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
     </repositories>
 
     <properties>
@@ -94,7 +102,7 @@
         <surefire.version>2.19.1</surefire.version>
         <poi.version>3.15</poi.version>
         <htmlunit.version>2.23</htmlunit.version>
-        <lucene.version>6.3.0</lucene.version>
+        <lucene.version>6.4.0-SNAPSHOT</lucene.version>
         <selenium.version>3.0.1</selenium.version>
         <slf4j.version>1.7.22</slf4j.version>
         <log4j.version>2.7</log4j.version>
