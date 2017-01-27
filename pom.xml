@@ -94,18 +94,18 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <undertow.version>1.4.8.Final</undertow.version>
-        <httpclient.version>4.5.2</httpclient.version>
-        <httpcore.version>4.4.4</httpcore.version>
+        <httpclient.version>4.5.3</httpclient.version>
+        <httpcore.version>4.4.6</httpcore.version>
         <jersey.version>2.25</jersey.version>
-        <jackson.version>2.8.5</jackson.version>
+        <jackson.version>2.8.6</jackson.version>
         <jackson1.version>1.9.13</jackson1.version>
         <surefire.version>2.19.1</surefire.version>
         <poi.version>3.15</poi.version>
-        <htmlunit.version>2.23</htmlunit.version>
-        <lucene.version>6.4.0-SNAPSHOT</lucene.version>
+        <htmlunit.version>2.24</htmlunit.version>
+        <lucene.version>6.4.0</lucene.version>
         <selenium.version>3.0.1</selenium.version>
         <slf4j.version>1.7.22</slf4j.version>
-        <log4j.version>2.7</log4j.version>
+        <log4j.version>2.8</log4j.version>
         <jetty.version>9.3.13.v20161014</jetty.version>
         <asm.version>5.1</asm.version>
     </properties>
@@ -546,7 +546,7 @@
             <dependency>
                 <groupId>org.roaringbitmap</groupId>
                 <artifactId>RoaringBitmap</artifactId>
-                <version>0.6.29</version>
+                <version>0.6.34</version>
             </dependency>
             <dependency>
                 <groupId>net.sourceforge.htmlunit</groupId>
