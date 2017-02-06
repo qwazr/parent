@@ -93,7 +93,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-        <undertow.version>1.4.8.Final</undertow.version>
+        <undertow.version>1.4.10.Final</undertow.version>
         <httpclient.version>4.5.3</httpclient.version>
         <httpcore.version>4.4.6</httpcore.version>
         <jersey.version>2.25</jersey.version>
@@ -546,7 +546,7 @@
             <dependency>
                 <groupId>org.roaringbitmap</groupId>
                 <artifactId>RoaringBitmap</artifactId>
-                <version>0.6.34</version>
+                <version>0.6.35</version>
             </dependency>
             <dependency>
                 <groupId>net.sourceforge.htmlunit</groupId>
