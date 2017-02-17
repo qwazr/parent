@@ -546,7 +546,7 @@
             <dependency>
                 <groupId>org.roaringbitmap</groupId>
                 <artifactId>RoaringBitmap</artifactId>
-                <version>0.6.35</version>
+                <version>0.6.36</version>
             </dependency>
             <dependency>
                 <groupId>net.sourceforge.htmlunit</groupId>
