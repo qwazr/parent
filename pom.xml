@@ -107,7 +107,7 @@
         <slf4j.version>1.7.23</slf4j.version>
         <log4j.version>2.8</log4j.version>
         <jetty.version>9.3.16.v20170120</jetty.version>
-        <asm.version>5.1</asm.version>
+        <asm.version>5.2</asm.version>
     </properties>
 
     <dependencyManagement>
