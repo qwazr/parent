@@ -124,7 +124,7 @@
             <dependency>
                 <artifactId>guava</artifactId>
                 <groupId>com.google.guava</groupId>
-                <version>21.0</version>
+                <version>19.0</version>
             </dependency>
             <dependency>
                 <artifactId>commons-codec</artifactId>
