@@ -408,11 +408,6 @@
                 <version>${slf4j.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.datastax.cassandra</groupId>
-                <artifactId>cassandra-driver-core</artifactId>
-                <version>2.1.10.3</version>
-            </dependency>
-            <dependency>
                 <groupId>com.qwazr</groupId>
                 <artifactId>qwazr-cluster</artifactId>
                 <version>${project.version}</version>
