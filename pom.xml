@@ -102,6 +102,7 @@
                 <groupId>com.qwazr</groupId>
                 <artifactId>qwazr-bom</artifactId>
                 <version>${project.version}</version>
+                <type>pom</type>
                 <scope>import</scope>
             </dependency>
         </dependencies>
