@@ -148,6 +148,7 @@
         <profile>
             <id>shade</id>
             <build>
+                
                 <pluginManagement>
                     <plugins>
                         <plugin>
@@ -167,9 +168,22 @@
                         </plugin>
                     </plugins>
                 </pluginManagement>
+
+                <plugins>
+                    <plugin>
+                        <groupId>org.codehaus.mojo</groupId>
+                        <artifactId>rpm-maven-plugin</artifactId>
+                        <configuration>
+                            <license>Apache 2 (c) 2015-2017, Emmanuel Keller / QWAZR</license>
+                            <group>Application/Internet</group>
+                        </configuration>
+                    </plugin>
+                </plugins>
+
             </build>
         </profile>
     </profiles>
+
     <build>
         <finalName>${project.artifactId}-${project.version}</finalName>
         <pluginManagement>
@@ -273,14 +287,6 @@
         </pluginManagement>
 
         <plugins>
-            <plugin>
-                <groupId>org.codehaus.mojo</groupId>
-                <artifactId>rpm-maven-plugin</artifactId>
-                <configuration>
-                    <license>Apache 2 (c) 2014-2016, Emmanuel Keller / QWAZR</license>
-                    <group>Application/Internet</group>
-                </configuration>
-            </plugin>
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>build-helper-maven-plugin</artifactId>
