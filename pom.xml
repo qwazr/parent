@@ -21,16 +21,16 @@
     </licenses>
 
     <organization>
-        <name>QWAZR / Emmanuel Keller</name>
-        <url>https://www.qwazr.com</url>
+        <name>Jaeksoft / OpenSearchServer</name>
+        <url>http://www.qwazr.com</url>
     </organization>
 
     <developers>
         <developer>
             <name>Emmanuel Keller</name>
             <email>emmanuel@qwazr.com</email>
-            <organization>QWAZR</organization>
-            <organizationUrl>https://www.qwazr.com</organizationUrl>
+            <organization>Jaeksoft / OpenSearchServer</organization>
+            <organizationUrl>http://www.qwazr.com</organizationUrl>
         </developer>
     </developers>
 
@@ -123,7 +123,7 @@
                         <artifactId>rpm-maven-plugin</artifactId>
                         <version>2.1.5</version>
                         <configuration>
-                            <license>Apache 2 (c) 2015-2017, Emmanuel Keller / QWAZR</license>
+                            <license>Apache 2 (c) 2015-2018, Jaeksoft / OpenSearchServer</license>
                             <group>Application/Internet</group>
                         </configuration>
                     </plugin>
