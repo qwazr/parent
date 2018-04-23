@@ -77,7 +77,7 @@
             <dependency>
                 <groupId>com.qwazr</groupId>
                 <artifactId>qwazr-bom</artifactId>
-                <version>1.4.0</version>
+                <version>1.4.1-SNAPSHOT</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
