@@ -21,7 +21,7 @@
     </licenses>
 
     <organization>
-        <name>Jaeksoft / OpenSearchServer</name>
+        <name>QWAZR Ltd</name>
         <url>http://www.qwazr.com</url>
     </organization>
 
@@ -29,7 +29,7 @@
         <developer>
             <name>Emmanuel Keller</name>
             <email>emmanuel@qwazr.com</email>
-            <organization>Jaeksoft / OpenSearchServer</organization>
+            <organization>QWAZR Ltd</organization>
             <organizationUrl>http://www.qwazr.com</organizationUrl>
         </developer>
     </developers>
@@ -69,6 +69,8 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <maven.compiler.target>11</maven.compiler.target>
+        <maven.compiler.source>11</maven.compiler.source>
     </properties>
 
     <dependencyManagement>
@@ -197,7 +199,7 @@
                 <version>3.8.0</version>
                 <configuration>
                     <release>11</release>
-                    <target>10</target>
+                    <target>11</target>
                 </configuration>
             </plugin>
             <plugin>
