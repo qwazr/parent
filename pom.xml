@@ -63,17 +63,9 @@
         <pluginRepository>
             <id>ossrh</id>
             <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
-        </pluginRepository>
-        <pluginRepository>
             <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-            <releases>
                 <enabled>true</enabled>
-            </releases>
-            <id>central</id>
-            <name>bintray-plugins</name>
-            <url>https://jcenter.bintray.com</url>
+            </snapshots>
         </pluginRepository>
     </pluginRepositories>
 
@@ -119,17 +111,6 @@
             <snapshots>
                 <enabled>true</enabled>
             </snapshots>
-        </repository>
-        <repository>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <id>central</id>
-            <name>bintray</name>
-            <url>https://jcenter.bintray.com</url>
         </repository>
     </repositories>
 
