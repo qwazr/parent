@@ -81,7 +81,7 @@
             <dependency>
                 <groupId>com.qwazr</groupId>
                 <artifactId>qwazr-bom</artifactId>
-                <version>1.5.0-SNAPSHOT</version>
+                <version>1.5.1-SNAPSHOT</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -127,7 +127,7 @@
             <snapshots>
                 <enabled>false</enabled>
             </snapshots>
-            <id>central</id>
+            <id>bintray</id>
             <url>https://jcenter.bintray.com</url>
         </repository>
     </repositories>
